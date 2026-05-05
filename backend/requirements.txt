@@ -1,0 +1,33 @@
+# Core Framework
+fastapi==0.110.1
+uvicorn[standard]==0.25.0
+
+# Database
+firebase-admin==6.4.0
+
+# Data Validation
+pydantic[email]==2.6.4
+pydantic-settings==2.2.1
+
+# Environment Management
+python-dotenv==1.0.1
+
+# AI Integration
+google-generativeai>=0.8.0
+
+# Image Storage
+cloudinary>=1.42.1
+python-multipart==0.0.9
+
+# Security
+slowapi==0.1.9
+cryptography==42.0.5
+bcrypt==4.1.2
+
+# Email
+aiosmtplib==3.0.1
+email-validator==2.1.0
+
+# Code Quality (Development)
+ruff==0.3.0
+black==24.2.0
